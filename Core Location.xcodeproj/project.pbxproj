@@ -14,6 +14,7 @@
 		116F679D1B0F9D9B006369AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116F679C1B0F9D9B006369AD /* Images.xcassets */; };
 		116F67A01B0F9D9B006369AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116F679E1B0F9D9B006369AD /* LaunchScreen.xib */; };
 		116F67AC1B0F9D9B006369AD /* Core_LocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116F67AB1B0F9D9B006369AD /* Core_LocationTests.m */; };
+		116F67B61B0F9EB3006369AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116F67B51B0F9EB3006369AD /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		116F67A51B0F9D9B006369AD /* Core LocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core LocationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		116F67AA1B0F9D9B006369AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		116F67AB1B0F9D9B006369AD /* Core_LocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_LocationTests.m; sourceTree = "<group>"; };
+		116F67B51B0F9EB3006369AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116F67B61B0F9EB3006369AD /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		116F67831B0F9D9B006369AD = {
 			isa = PBXGroup;
 			children = (
+				116F67B51B0F9EB3006369AD /* CoreLocation.framework */,
 				116F678E1B0F9D9B006369AD /* Core Location */,
 				116F67A81B0F9D9B006369AD /* Core LocationTests */,
 				116F678D1B0F9D9B006369AD /* Products */,
